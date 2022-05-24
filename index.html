@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mari Garayco</title>
+    <link rel="icon" type="image/x-icon" href="./img/logo.png">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <!-- TIPOGRAFIA MONTSERRAT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="grid-area-index">
+        <!-- ENCABEZADO -->
+        <header id="header">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./img/logo.png" alt="Logo círculo amarillo" class="logoCirculo">
+                    <h1>Mari Garayco</h1>
+                </a>
+            </div>
+
+            <nav class="menu">
+                <ul>
+                    <li class="menu__portfolio">
+                        <a href="./pages/portfolio.html">PORTFOLIO</a>
+                        <ul class="menu__portfolio__submenu">
+                            <li>
+                                <a href="./pages/portfolio-publicidad.html">PUBLICIDAD</a>
+                            </li>
+                            <li>
+                                <a href="./pages/portfolio-fotoperiodismo.html">FOTOPERIODISMO</a>
+                            </li>
+                            <li>
+                                <a href="./pages/portfolio-personal.html">PERSONAL</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#contacto">CONTACTO</a>
+                    </li>
+                    
+                </ul>
+            </nav>    
+        </header>
+
+        
+        <!-- PORTADA -->
+        <main id="portada">
+        </main>
+
+        
+        <!-- SLIDE -->
+        <section id="slide">
+            <div class="slide-container">
+                <div class="slide-item">
+                    <a href="./pages/portfolio-publicidad.html">
+                        <img src="./img/img-portfolio-publicidad/publicidad-03.jpg" alt="Foto marca Alimenta" class="imagen">
+                    </a>
+                </div>
+                <div class="slide-item">
+                    <a href="./pages/portfolio-fotoperiodismo.html">
+                        <img src="./img/img-portfolio-fotoperiodismo/fotoperiodismo-03.jpg" alt="X">
+                    </a>
+                </div>
+                <div class="slide-item">
+                    <a href="./pages/portfolio-personal.html">
+                        <img src="./img/img-portfolio-personal/portfolio-personal-01.jpg" alt="Foto textura agua de mar" class="imagen">
+                    </a>
+                </div>
+            </div>
+            <div class="slide-boton">
+                <a href="./pages/portfolio.html">VER TODO</a>
+            </div>
+        </section>
+
+
+        <!-- CONTACTO -->
+        
+        <!-- SECTION SALUDO -->
+        
+        <section id="contacto">
+            <h3>Hola!</h3>
+            <div class="contacto__item contacto__saludo">            
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, quaerat? Sapiente soluta pariatur magnam, eligendi adipisci iste maiores voluptatem sunt ut, voluptate aut. Adipisci molestias repellendus nulla illo voluptatem natus?</p>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus odit aut quia minima deserunt sit voluptas explicabo eligendi, ducimus ex blanditiis nostrum debitis error magnam cumque delectus. Ut, culpa vitae.</p>
+                
+            </div>
+
+        <!-- SECTION FORMULARIO -->
+            <div class="contacto__item contacto__formulario">
+                <h4>CHARLEMOS</h4>
+                <form action="enviar.php" method="get" enctype="text/plain">
+                    <div>
+                        <label for="nombre">NOMBRE</label>
+                        <br>
+                        <input type="text" id="nombre">        
+                    </div>
+                    <div>
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" required placeholder="ejemplo@gmail.com">
+                    </div>
+                    <div>
+                        <label for="telefono">TELEFONO</label>
+                        <input type="number" id="telefono" required placeholder="(AREA) XX-XXXX-XXXX">
+                    </div>
+                    <div>
+                        <label for="motivo">¿EN QUÉ TE PUEDO AYUDAR?</label>
+                        <br>
+                        <select name="motivo" id="motivo">
+                            <option value="presupuesto">Presupuesto</option>
+                            <option value="agenda">Agenda</option>
+                            <option value="servicios">Servicios</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+                    <div>
+                        <textarea name="consulta" id="consulta" cols="30" rows="5" placeholder="Hola, Mari! Me pongo en contacto porque..."></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" class="contacto__boton">
+                    </div>
+                </form>
+            </div>
+        </section>
+        
+
+
+        <!-- FOOTER -->
+        <footer id="pie">
+            <a href="https://wa.me/5491138519157" target="_blank" class="pie__numero">+5491138619157</a> 
+            <a href="mailto:marigarayco@gmail.com" target="_blank" class="pie__mail">marigarayco@gmail.com</a>
+            <div class="pie__redes">
+                <a href="https://www.instagram.com/marigarayco/" target="_blank">
+                    <img src="./img/icono-instagram-relleno.png" alt="Logo Instagram" class="redes">
+                </a>
+                <a href="https://www.behance.net/marigarayco" target="_blank">
+                    <img src="./img/icono-behance-relleno.png" alt="Logo Behance" class="redes">
+                </a>
+            </div>
+        </footer>
+    </div>
+    
+</body>
+</html>
